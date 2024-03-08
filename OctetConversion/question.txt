@@ -1,0 +1,11 @@
+﻿Objectif
+Pour éviter la confusion entre les multiples de 1000 octets et les multiples de 1024 octets, les termes
+"kibioctet", "mébioctet", etc. ont été inventés.
+Un kibioctet (abrégé KiB) correspond à 1024 octets. Un mébioctet (MiB) correspond à (1024*1024 =
+1048576) octets
+Étant donné une quantité d'octets :
+Si elle est inférieure à un KiB, renvoyez-la sous forme d'une chaîne de caractère. Si elle est comprise
+entre un KiB (inclus) et un MiB (exclu), convertissez-la en KiB, arrondissez à l'unité inférieure et renvoyez-
+la suivie d'un espace et du texte "KiB". Si elle est supérieure ou égale à un MiB, convertissez-la en MiB,
+arrondissez à l'unité inférieure et renvoyez-la suivie d'un espace et du texte "MiB".
+Vous n'aurez jamais de valeurs supérieures à 109 octets, donc vous n'atteindrez jamais le "gibibyte".

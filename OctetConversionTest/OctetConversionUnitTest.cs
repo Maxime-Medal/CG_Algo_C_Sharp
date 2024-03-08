@@ -23,8 +23,8 @@ namespace CodinGame_Wa_Test
         [Fact]
         public void ShouldDisplayWithValuesInFile2()
         {
-        var currentDirectory = Directory.GetCurrentDirectory();
-        var testDirectory = Path.Combine(currentDirectory, "test");
+        //var currentDirectory = Directory.GetCurrentDirectory();
+        //var testDirectory = Path.Combine(currentDirectory, "test");
 
             // Arrange
             var pathOut = @"C:\Projects\My_Projects\CodingGame_C_Sharp\OctetConversionTest\octet_Test\Test_2_output.txt";

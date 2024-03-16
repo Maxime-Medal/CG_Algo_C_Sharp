@@ -24,9 +24,11 @@ namespace CodinGame_WA
             }
             if(arr.Count > 2)
             {
-                // TODO  en cas de plusieur selectionner la paire avec le plus petit chiffre à gauche et si égalite, celui de droite
-                //arr.Find;
+                var pairs = arr.Where((x, i) => i % 2 == 0).Select((x, i) => new[] {x, arr[i + 1]}).ToList();
+                pairs.OrderBy(x => x[0]);
+                arr = pairs[0].ToList();
             }
+            if (arr.Count == 0) arr= new List<int>() {0, 0};
             return arr;
         }
 

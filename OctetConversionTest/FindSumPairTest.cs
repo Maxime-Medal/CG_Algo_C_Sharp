@@ -1,17 +1,10 @@
-﻿using CodinGame_Wa;
-using CodinGame_WA;
-using Microsoft.VisualBasic;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CodinGame_WA;
 
 namespace CodinGame_Wa_Test
 {
     public class FindSumPairTest
     {
-        const string MYPATH = "C:/Users/Eltanin/Projects/Learn/CodingGame_C_Sharp/OctetConversionTest/FindSumPair_Input";
+        const string MYPATH = "C:/Projects/My_Projects/CodingGame_C_Sharp/OctetConversionTest/FindSumPair_Input";
         internal List<int> StringsToInts(string[] strings)
         {
             List<int> nums = new ();
@@ -61,9 +54,8 @@ namespace CodinGame_Wa_Test
         [InlineData(4)]
         [InlineData(5)]
         [InlineData(6)]
-        public void ShouldDisplayWithValuesInFile(int test)
+        public void ShouldDisplayWithValuesInFiles(int test)
         {
-
             // Arrange
 
             // Out
@@ -89,7 +81,5 @@ namespace CodinGame_Wa_Test
             // Assert
             Assert.Equal(outResult, testedValue);
         }
-
-
     }
 }

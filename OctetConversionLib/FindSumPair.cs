@@ -29,10 +29,9 @@ namespace CodinGame_WA
                 pairs.OrderBy(x => x[0]);
                 arr = pairs[0].ToList();
             }
-            if (arr.Count == 0) arr= new List<int>() {0, 0};
+            if (arr.Count == 0) arr = new List<int>() { 0, 0 };
             return arr;
         }
-
     }
 }
 

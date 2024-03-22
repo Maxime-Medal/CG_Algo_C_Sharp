@@ -8,10 +8,37 @@ namespace CodinGame_WA
 {
     public class AddDrama
     {
-        public static string AddDramaa(string text)
+        // TODO gérer le test 7
+        public string AddDramaChar(string text)
         {
+            var newStr = new StringBuilder();
+
+            // TODO implémenter le test 7
+            //for (int i = 0; i < text.Length; i++)
+            //{
+            //    var actualChar = text[i];
+            //    if (text[i] == '!' )
+            //    {
+            //        var test = text[i+1];
+            //        if (test != '!')
+            //        {
+            //            newStr.Append('!');
+            //        }
+            //    }
+            //    else if (text[i] == '.')
+            //    {
+            //        newStr.Append('!');
+            //    }
+            //    else
+            //    {
+            //        newStr.Append(actualChar);
+            //    }
+            //}
+            //return newStr.ToString();
+
             var sArr = text.Split(' ');
             List<string> res = new();
+
             foreach (var s in sArr)
             {
                 var newS = s;

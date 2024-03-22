@@ -24,6 +24,7 @@ namespace CodinGame_WA
             }
             if(arr.Count > 2)
             {
+                // On prend que les index pair et on en fait des tuples
                 var pairs = arr.Where((x, i) => i % 2 == 0).Select((x, i) => new[] {x, arr[i + 1]}).ToList();
                 pairs.OrderBy(x => x[0]);
                 arr = pairs[0].ToList();

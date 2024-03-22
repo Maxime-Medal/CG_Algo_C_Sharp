@@ -13,5 +13,11 @@ internal class Program
 
         Console.WriteLine("Démarage de l'App");
 
+        string[] dataIn = ["the", "dog", "got", "the", "bone"];
+        int[] dataOut = [1, 1, 1, 2];
+
+        var test = new WordsFrequencies();
+        var res = test.CountFrequencies(dataIn);
+
     }
 }

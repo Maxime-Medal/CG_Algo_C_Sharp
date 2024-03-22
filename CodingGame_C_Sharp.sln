@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App", "OctetConversion\App.csproj", "{A5A1DC3F-491F-493B-A03A-1329C8A3CE3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App", "App\App.csproj", "{A5A1DC3F-491F-493B-A03A-1329C8A3CE3B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodinGame_Wa_Test", "OctetConversionTest\CodinGame_Wa_Test.csproj", "{09BEF8DC-8FB1-4677-9A0A-B789E3A42DF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodinGame_Wa_Test", "CodinGame_Wa_Test\CodinGame_Wa_Test.csproj", "{09BEF8DC-8FB1-4677-9A0A-B789E3A42DF5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodinGame_WA", "OctetConversionLib\CodinGame_WA.csproj", "{F925D4A0-2CD2-42EA-8D9D-BCC61AEACD51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodinGame_WA", "CodinGame_Wa\CodinGame_WA.csproj", "{F925D4A0-2CD2-42EA-8D9D-BCC61AEACD51}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars", "CodeWars\CodeWars.csproj", "{97C68029-33D1-47FF-A06D-65DDC2323AAB}"
 EndProject

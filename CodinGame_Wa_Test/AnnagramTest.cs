@@ -10,7 +10,8 @@ namespace CodinGame_Wa_Test
 {
     public class AnnagramTest
     {
-        const string PATH = @"C:\Users\Eltanin\Projects\Learn\CodingGame_C_Sharp\OctetConversionTest\Anagramm_Input";
+        const string PATH = "C:/Projects/My_Projects/CodingGame_C_Sharp/CodinGame_WA_Test/Anagramm_Input";
+        //const string PATH = "C:/Users/Eltanin/Projects/Learn/CodingGame_C_Sharp/CodinGame_WA_Test/Anagramm_Input";
 
         [Fact]
         public void Test1()

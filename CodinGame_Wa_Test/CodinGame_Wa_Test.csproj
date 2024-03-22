@@ -18,7 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CodeWars\CodeWars.csproj" />
-    <ProjectReference Include="..\OctetConversionLib\CodinGame_WA.csproj" />
+    <ProjectReference Include="..\CodinGame_WA\CodinGame_WA.csproj" />
   </ItemGroup>
 
   <ItemGroup>

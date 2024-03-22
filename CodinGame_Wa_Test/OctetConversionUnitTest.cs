@@ -27,12 +27,12 @@ namespace CodinGame_Wa_Test
         //var testDirectory = Path.Combine(currentDirectory, "test");
 
             // Arrange
-            var pathOut = @"C:\Projects\My_Projects\CodingGame_C_Sharp\OctetConversionTest\octet_Test\Test_2_output.txt";
+            var pathOut = @"C:\Projects\My_Projects\CodingGame_C_Sharp\CodinGame_WA_Test\octet_Test\Test_2_output.txt";
             var resultTextData = File.ReadAllText(pathOut).Trim('\"');
             ComputeBytes computer = new ();
 
             // Act
-            var pathIn = @"C:\Projects\My_Projects\CodingGame_C_Sharp\OctetConversionTest\octet_Test\Test_2_input.txt";
+            var pathIn = @"C:\Projects\My_Projects\CodingGame_C_Sharp\CodinGame_WA_Test\octet_Test\Test_2_input.txt";
             int test;
             int.TryParse(File.ReadAllText(pathIn), out test);
             var testedValue = computer.Compute(test);
@@ -45,12 +45,12 @@ namespace CodinGame_Wa_Test
         public void ShouldDisplayWithValuesInFile3()
         {
             // Arrange
-            var pathOut = @"C:\Projects\My_Projects\CodingGame_C_Sharp\OctetConversionTest\octet_Test\Test_3_output.txt";
+            var pathOut = @"C:\Projects\My_Projects\CodingGame_C_Sharp\CodinGame_WA_Test\octet_Test\Test_3_output.txt";
             var resultTextData = File.ReadAllText(pathOut).Trim('\"');
             ComputeBytes computer = new ();
 
             // Act
-            var pathIn = @"C:\Projects\My_Projects\CodingGame_C_Sharp\OctetConversionTest\octet_Test\Test_3_input.txt";
+            var pathIn = @"C:\Projects\My_Projects\CodingGame_C_Sharp\CodinGame_WA_Test\octet_Test\Test_3_input.txt";
             int test;
             int.TryParse(File.ReadAllText(pathIn), out test);
             var testedValue = computer.Compute(test);
@@ -63,12 +63,12 @@ namespace CodinGame_Wa_Test
         public void ShouldDisplayWithValuesInFile4()
         {
             // Arrange
-            var pathOut = @"C:\Projects\My_Projects\CodingGame_C_Sharp\OctetConversionTest\octet_Test\Test_4_output.txt";
+            var pathOut = @"C:\Projects\My_Projects\CodingGame_C_Sharp\CodinGame_WA_Test\octet_Test\Test_4_output.txt";
             var resultTextData = File.ReadAllText(pathOut).Trim('\"');
             ComputeBytes computer = new ();
 
             // Act
-            var pathIn = @"C:\Projects\My_Projects\CodingGame_C_Sharp\OctetConversionTest\octet_Test\Test_4_input.txt";
+            var pathIn = @"C:\Projects\My_Projects\CodingGame_C_Sharp\CodinGame_WA_Test\octet_Test\Test_4_input.txt";
             int test;
             int.TryParse(File.ReadAllText(pathIn), out test);
             var testedValue = computer.Compute(test);
@@ -81,12 +81,12 @@ namespace CodinGame_Wa_Test
         public void ShouldDisplayWithValuesInFile5()
         {
             // Arrange
-            var pathOut = @"C:\Projects\My_Projects\CodingGame_C_Sharp\OctetConversionTest\octet_Test\Test_5_output.txt";
+            var pathOut = @"C:\Projects\My_Projects\CodingGame_C_Sharp\CodinGame_WA_Test\octet_Test\Test_5_output.txt";
             var resultTextData = File.ReadAllText(pathOut).Trim('\"');
             ComputeBytes computer = new ();
 
             // Act
-            var pathIn = @"C:\Projects\My_Projects\CodingGame_C_Sharp\OctetConversionTest\octet_Test\Test_5_input.txt";
+            var pathIn = @"C:\Projects\My_Projects\CodingGame_C_Sharp\CodinGame_WA_Test\octet_Test\Test_5_input.txt";
             int test;
             int.TryParse(File.ReadAllText(pathIn), out test);
             var testedValue = computer.Compute(test);
@@ -99,12 +99,12 @@ namespace CodinGame_Wa_Test
         public void ShouldDisplayWithValuesInFile6()
         {
             // Arrange
-            var pathOut = @"C:\Projects\My_Projects\CodingGame_C_Sharp\OctetConversionTest\octet_Test\Test_6_output.txt";
+            var pathOut = @"C:\Projects\My_Projects\CodingGame_C_Sharp\CodinGame_WA_Test\octet_Test\Test_6_output.txt";
             var resultTextData = File.ReadAllText(pathOut).Trim('\"');
             ComputeBytes computer = new ();
 
             // Act
-            var pathIn = @"C:\Projects\My_Projects\CodingGame_C_Sharp\OctetConversionTest\octet_Test\Test_6_input.txt";
+            var pathIn = @"C:\Projects\My_Projects\CodingGame_C_Sharp\CodinGame_WA_Test\octet_Test\Test_6_input.txt";
             int test;
             int.TryParse(File.ReadAllText(pathIn), out test);
             var testedValue = computer.Compute(test);
@@ -117,12 +117,12 @@ namespace CodinGame_Wa_Test
         public void ShouldDisplayWithValuesInFile7()
         {
             // Arrange
-            var pathOut = @"C:\Projects\My_Projects\CodingGame_C_Sharp\OctetConversionTest\octet_Test\Test_7_output.txt";
+            var pathOut = @"C:\Projects\My_Projects\CodingGame_C_Sharp\CodinGame_WA_Test\octet_Test\Test_7_output.txt";
             var resultTextData = File.ReadAllText(pathOut).Trim('\"');
             ComputeBytes computer = new ();
 
             // Act
-            var pathIn = @"C:\Projects\My_Projects\CodingGame_C_Sharp\OctetConversionTest\octet_Test\Test_7_input.txt";
+            var pathIn = @"C:\Projects\My_Projects\CodingGame_C_Sharp\CodinGame_WA_Test\octet_Test\Test_7_input.txt";
             int test;
             int.TryParse(File.ReadAllText(pathIn), out test);
             var testedValue = computer.Compute(test);

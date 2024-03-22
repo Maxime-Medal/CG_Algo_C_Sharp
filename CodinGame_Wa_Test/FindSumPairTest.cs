@@ -4,7 +4,7 @@ namespace CodinGame_Wa_Test
 {
     public class FindSumPairTest
     {
-        const string MYPATH = "C:/Projects/My_Projects/CodingGame_C_Sharp/OctetConversionTest/FindSumPair_Input";
+        const string MYPATH = "C:/Projects/My_Projects/CodingGame_C_Sharp/CodinGame_WA_Test/FindSumPair_Input";
         internal List<int> StringsToInts(string[] strings)
         {
             List<int> nums = new ();

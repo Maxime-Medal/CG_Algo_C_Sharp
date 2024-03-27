@@ -28,7 +28,7 @@ internal class Program
         };
 
         var topStocks = new TopStocks();
-        var test = topStocks.GetTopStocks(stocks, prices);
+        var test = topStocks.GetTopStocks2(stocks, prices);
 
     }
 }

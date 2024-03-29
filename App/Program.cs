@@ -5,7 +5,7 @@ using static System.Reflection.Metadata.BlobBuilder;
 using System;
 
 
-internal class Program
+public class Program
 {
     private static void Main(string[] args)
     {

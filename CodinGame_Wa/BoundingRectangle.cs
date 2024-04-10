@@ -10,7 +10,6 @@ namespace CodinGame_WA
     {
         public static List<int> Compute(List<List<int>> cpts)
         {
-            List<int> res = new();
             var minX = cpts.Min(c => c[0]);
             var minY = cpts.Min(c => c[1]);
             var maxX = cpts.Max(c => c[0]);

@@ -37,7 +37,7 @@ namespace CodinGame_WA
             decimal divBy5 = Math.Floor(s / 5m);
             decimal divBy2 = Math.Floor(s / 2m);
 
-            for (long i = s; i == 0; i++)
+            for (long i = s; i == 0; i--)
             {
 
             }

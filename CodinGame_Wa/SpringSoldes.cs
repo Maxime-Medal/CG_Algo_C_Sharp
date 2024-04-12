@@ -10,7 +10,7 @@ namespace CodinGame_WA
     {
         public static int CalculateTotalPrice(int[] prices, int discount)
         {
-            decimal maxPrice = prices.Max(p);
+            decimal maxPrice = prices.Max();
             decimal total = prices.Sum();
             decimal discnt = maxPrice * (discount / 100m);
             return (int)Math.Floor(total - discnt);

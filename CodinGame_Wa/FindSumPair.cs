@@ -8,7 +8,24 @@ namespace CodinGame_WA
 {
     public class FindSumPair
     {
-        public List<int> FindPair(List<int> n, int k)
+        public List<int> FindPair(List<int> numbers, int k)
+        {
+
+            for (int i = 0; i < numbers.Count(); i++)
+            {
+                for (int j = 0; j < numbers.Count(); j++)
+                {
+                    if (numbers[i] + numbers[j] == k) // (numbers[i] + numbers[j] == k && i !== j) 
+                    {
+                        return new List<int> { i, j };
+                    }
+                }
+            }
+
+            return new List<int> { 0, 0 };
+
+        }
+        public List<int> FindPair2(List<int> n, int k)
         {
             List<int> arr = new();
             for (int i = 0; i < n.Count(); i++)
